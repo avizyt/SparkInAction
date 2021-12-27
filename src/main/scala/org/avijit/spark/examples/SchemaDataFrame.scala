@@ -9,6 +9,7 @@ object SchemaDataFrame extends App {
       .appName("Schema Dataframe")
       .master("local[*]")
       .getOrCreate()
+    spark.sparkContext.setLogLevel("ERROR")
 
 //    if (args.length <= 0){
 //      println("usage SchemaDataframe < file path to blog.csv>")
@@ -26,17 +27,16 @@ object SchemaDataFrame extends App {
 
     val df = spark.read
       .format("csv")
-      .option("header", "false")
-      .option("delimiter", ",")
-      .schema(customSchema)
+      .option("header", "true")
+//      .schema(customSchema)
       .load("data/blog.csv")
 
 
     df.show()
-//    println(df.printSchema)
-//    println(df.schema)
+    df.printSchema()
+    println("Number of Record: "+df.count())
 
-    spark.stop()
+
 
 
 

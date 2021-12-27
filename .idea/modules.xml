@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkInAction.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkInAction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkInActionCh1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkInActionCh1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkInAction-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkInAction-build.iml" />
     </modules>
   </component>
 </project>

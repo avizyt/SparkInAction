@@ -1,4 +1,4 @@
-name := "SparkInActionCh1"
+name := "SparkInAction"
 
 version := "0.1"
 

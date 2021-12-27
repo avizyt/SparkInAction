@@ -10,10 +10,6 @@ object SchemaDataFrame extends App {
       .master("local[*]")
       .getOrCreate()
 
-//    if (args.length <= 0){
-//      println("usage SchemaDataframe < file path to blog.csv>")
-//      System.exit(1)
-//    }
 
     val customSchema = StructType(Array(StructField("ID", IntegerType, false),
       StructField("First", StringType,false),

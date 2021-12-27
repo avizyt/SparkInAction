@@ -1,4 +1,4 @@
 [debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/D:/Deep%20Learning%20AI/SparkInActionCh1/"), "sparkinactionch1")...
-[debug] Done updating ProjectRef(uri("file:/D:/Deep%20Learning%20AI/SparkInActionCh1/"), "sparkinactionch1")
+[debug] Updating ProjectRef(uri("file:/D:/Deep%20Learning%20AI/SparkInAction/"), "sparkinaction")...
+[debug] Done updating ProjectRef(uri("file:/D:/Deep%20Learning%20AI/SparkInAction/"), "sparkinaction")
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

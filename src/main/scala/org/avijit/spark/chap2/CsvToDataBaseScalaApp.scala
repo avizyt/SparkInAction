@@ -27,9 +27,8 @@ object CsvToDataBaseScalaApp {
 
     // step 3: save
     // ----
-    // The connection URL, assuming your PostgreSQL instance runs locally on
-    // the
-    // default port, and the database we use is "spark_labs"
+    // The connection URL, assuming mysql instance runs locally on
+    // the default port, and the database we use is "spark_labs"
     val dbConnectionUrl = "jdbc:mysql://localhost:3306/spark_lab"
 
     // Properties to connect to the database, the JDBC driver is part of our

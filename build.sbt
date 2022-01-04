@@ -16,3 +16,8 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.22"
 // https://mvnrepository.com/artifact/org.apache.spark/spark-mllib
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % "3.2.0" % "provided"
 
+// https://mvnrepository.com/artifact/org.apache.spark/spark-catalyst
+libraryDependencies += "org.apache.spark" %% "spark-catalyst" % "3.2.0" % Test
+
+// https://mvnrepository.com/artifact/org.apache.spark/spark-graphx
+libraryDependencies += "org.apache.spark" %% "spark-graphx" % "3.2.0"

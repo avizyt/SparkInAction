@@ -8,6 +8,7 @@ object CsvToDf {
       .appName("CSV to Dataframe")
       .master("local[*]")
       .getOrCreate()
+    spark.sparkContext.setLogLevel("ERROR")
 
     val df = spark.read.format("csv")
       .option("header", "true")

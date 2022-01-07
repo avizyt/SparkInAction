@@ -24,7 +24,6 @@ public class TransformationAndActionApp {
                 .getOrCreate();
 
         spark.sparkContext().setLogLevel("ERROR");
-
         long t1 = System.currentTimeMillis();
         System.out.println("1. Creating a session ............." + (t1 - t0));
 
